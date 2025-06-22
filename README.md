@@ -94,8 +94,7 @@
 <img src="images/image5.png" width="400"/>
 
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.
-3. 
-4. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
+3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
 <img src="images/image6.png" width="500"/>
 
 4.진행된 값을 바탕으로 summary데이터를 엑셀파일로 저장한다.
@@ -104,7 +103,7 @@
 #### 2) 상관계수, 산점도 시각화:
 
 1.seaborn 라이브러리를 사용하여 1(다중선형회귀분석)에서 ols검정을 통하여 계산된 x_data1을 이용하여 상관계수 시각화를 히트맵으로 진행한다.
-<img src="images/image8.png" width="500"/>
+<img src="images/image8.png" width="600"/>
 
 2.마찬가지로 seaborn 라이브러리를 이용하여 변수들의 산점도를 시각화 한다.
 <img src="images/image9.png" width="500"/>
