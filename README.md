@@ -205,8 +205,8 @@ VIF 값이 1에 가까울 수록 다중공산성의 문제가 낮다고 판단�
     <th>제거 후</th>
   </tr>
   <tr>
-    <td><img src="images/image11.png" width="400"/></td>
-    <td><img src="images/image12-1.png" width="400"/></td>
+    <td><img src="images/image12.png" width="400"/></td>
+    <td><img src="images/image14.png" width="400"/></td>
   </tr>
 </table>
 
