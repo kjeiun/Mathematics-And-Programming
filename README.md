@@ -100,7 +100,7 @@
 <img src="images/image8.png" width="400"/>
 
 2.마찬가지로 seaborn 라이브러리를 이용하여 변수들의 산점도를 시각화 한다.
-<img src="images/image9.png" width="300"/>
+<img src="images/image9.png" width="200"/>
 
 #### 3) VIF를 이용한 다중공산성 체크
 
