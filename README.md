@@ -84,7 +84,7 @@
   
 #### 1) 다중 선형 회귀 분석:
 1. target_data 는 “업무와 삶의 균형(워라밸)”으로 설정하고 , 나머지 변인들은 x_data 데이터 프레임에 불러온다.
-<img src="images/image5.png" width="500"/>
+<img src="images/image5.png" width="400"/>
 
 
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.
@@ -238,14 +238,14 @@ VIF 값이 1에 가까울 수록 다중공산성의 문제가 낮다고 판단�
 
 ### [VIF 분석 결과]:
 
-![image12](images/image12.png)
+<img src="images/image12.png" width="300"/>
 
 - 경영진 변수는 다중공산성 높아 제거
 
-![image13](images/image13.png)
+<img src="images/image13.png" width="200"/>
 
 - 제거 후 VIF Factor
-![image14](images/image14.png)
+<img src="images/image14.png" width="300"/>
 
 ---
 
