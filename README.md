@@ -92,16 +92,9 @@
 #### 1) 다중 선형 회귀 분석:
 1. target_data 는 “업무와 삶의 균형(워라밸)”으로 설정하고 , 나머지 변인들은 x_data 데이터 프레임에 불러온다.
 <img src="images/image5.png" width="400"/>
-
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.
-
-
-   
 3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
 <img src="images/image6.png" width="500"/>
-
-
-
 4.진행된 값을 바탕으로 summary데이터를 엑셀파일로 저장한다.
 <img src="images/image7.png" width="500"/>
 
