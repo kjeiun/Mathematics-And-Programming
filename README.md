@@ -97,10 +97,10 @@
 #### 2) 상관계수, 산점도 시각화:
 
 1.seaborn 라이브러리를 사용하여 1)에서 ols검정을 통하여 계산된 x_data1을 이용하여 상관계수 시각화를 히트맵으로 진행한다.
-<img src="images/image8.png" width="400"/>
+<img src="images/image8.png" width="500"/>
 
 2.마찬가지로 seaborn 라이브러리를 이용하여 변수들의 산점도를 시각화 한다.
-<img src="images/image9.png" width="200"/>
+<img src="images/image9.png" width="350"/>
 
 #### 3) VIF를 이용한 다중공산성 체크
 
