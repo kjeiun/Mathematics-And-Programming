@@ -45,10 +45,11 @@
 
 ### 데이터 생성 과정:
 1) 잡플래닛 데이터의 경우에는 특정 정보를 가져오기 위하여 로그인이 필요하므로, 셀레니움을 통하여 로그인을 한 이후에 크롤링을 진행하였음.
-![image2](images/image2.png)
+<img src="images/image2.png" width="600"/>
 
 2) 총 100페이지에 달하는 기업 순위 리스트에서 각 기업의 고유 company id와 company name을 가져와서 list에 dictionary 형태로 저장하였음.
-![image3](images/image3.png)
+<img src="images/image3.png" width="600"/>
+
 
 3) 해당 dictionary에 저장된 company id를 이용하여 ‘/reviews/’  url에 접근하여 5개의 평가 점수를 획득하고
 
@@ -58,7 +59,8 @@
 ### 데이터 가공:
 
 1) 데이터를 가져오는 과정에서 특정 정보가 없거나 exception error가 발생하는 경우 데이터를 가져오지 못하였으므로, 정보가 없는 데이터를 담은 행의 경우에는 아예 데이터 파일에서 삭제하였음. 또한, Exception Handling을 위해 아래의 코드를 추가하였음.
-![image4](images/image4.png)
+<img src="images/image4.png" width="400"/>
+
 
 2) 퇴사자 수 대신 `퇴사율 = 퇴사자 수 / (입사자 수 + 퇴사자 수)` 추가
 
@@ -82,23 +84,24 @@
   
 #### 1) 다중 선형 회귀 분석:
 1. target_data 는 “업무와 삶의 균형(워라밸)”으로 설정하고 , 나머지 변인들은 x_data 데이터 프레임에 불러온다.
-![image5](images/image5.png)
+<img src="images/image5.png" width="500"/>
+
 
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.
    
 3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
-![image6](images/image6.png)
+<img src="images/image6.png" width="400"/>
 
 4.진행된 값을 바탕으로 summary데이터를 엑셀파일로 저장한다.
-![image7](images/image7.png)
+<img src="images/image7.png" width="400"/>
 
 #### 2) 상관계수, 산점도 시각화:
 
 1.seaborn 라이브러리를 사용하여 1)에서 ols검정을 통하여 계산된 x_data1을 이용하여 상관계수 시각화를 히트맵으로 진행한다.
-![image8](images/image8.png)
+<img src="images/image8.png" width="400"/>
 
 2.마찬가지로 seaborn 라이브러리를 이용하여 변수들의 산점도를 시각화 한다.
-![image9](images/image9.png)
+<img src="images/image9.png" width="400"/>
 
 #### 3) VIF를 이용한 다중공산성 체크
 
