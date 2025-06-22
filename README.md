@@ -96,12 +96,12 @@
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.<br>
 
 3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
-<br>
 <img src="images/image6.png" width="400"/>
 <br>
 
 4.진행된 값을 바탕으로 summary데이터를 엑셀파일로 저장한다.
 <img src="images/image7.png" width="400"/>
+<br>
 
 #### 2) 상관계수, 산점도 시각화:
 
