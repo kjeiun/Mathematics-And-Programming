@@ -100,7 +100,9 @@
 <br>
 
 4.진행된 값을 바탕으로 summary데이터를 엑셀파일로 저장한다.
-<img src="images/image7.png" width="400"/>
+<p align="left">
+  <img src="images/image7.png" width="400">
+</p>
 <br>
 
 #### 2) 상관계수, 산점도 시각화:
