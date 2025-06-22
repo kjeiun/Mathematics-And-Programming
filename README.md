@@ -94,7 +94,7 @@
 <img src="images/image5.png" width="400"/>
 
 2. 선형 회귀분석을 위한 상수항을 계산하고, 상수항을 추가하여 x_data1에 담는다.<br>
-3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.
+3. statsmodel 라이브러리를 사용하여 ols검정을 진행한다.<br>
 <img src="images/image6.png" width="400"/>
 <br>
 
